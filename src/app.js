@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import '../styles/styles.scss';
-import Header from './components/header'
+import Router from "./components/Router/Router"
 
-
-ReactDOM.render(<Header />, document.getElementById('root'))
+ReactDOM.render(<Router />, document.getElementById('root'))
